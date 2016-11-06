@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-knt5-base",
+  "description": "A personal ESLint config based on eslint-config-airbnb-base",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "knt5",
+  "homepage": "https://github.com/knt5/jpgis-convert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knt5/jpgis-convert.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "knt5",
+    "javascript"
+  ],
+  "main": "index.js",
+  "config": {
+    "node_path": "./test/test"
+  },
+  "scripts": {
+    "test": "NODE_PATH=$npm_package_config_node_path mocha --colors --reporter spec 'test/test/standard/**/*.spec.js'",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1"
+  }
+}
