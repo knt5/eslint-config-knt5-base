@@ -5,7 +5,7 @@ A personal ESLint config based on eslint-config-airbnb-base
 ## Installation
 
 ```
-npm install eslint-config-knt5-base
+npm install --save-dev eslint-config-knt5-base
 ```
 
 ## Usage
