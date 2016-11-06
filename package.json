@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "knt5",
-  "homepage": "https://github.com/knt5/jpgis-convert",
+  "homepage": "https://github.com/knt5/eslint-config-knt5-base",
   "repository": {
     "type": "git",
-    "url": "https://github.com/knt5/jpgis-convert.git"
+    "url": "https://github.com/knt5/eslint-config-knt5-base.git"
   },
   "keywords": [
     "eslint",
@@ -17,11 +17,7 @@
     "javascript"
   ],
   "main": "index.js",
-  "config": {
-    "node_path": "./test/test"
-  },
   "scripts": {
-    "test": "NODE_PATH=$npm_package_config_node_path mocha --colors --reporter spec 'test/test/standard/**/*.spec.js'",
     "lint": "eslint ."
   },
   "dependencies": {
