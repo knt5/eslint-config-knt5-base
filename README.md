@@ -14,7 +14,7 @@ npm install --save-dev eslint-config-knt5-base
 
 ```
 {
-  "extends": ["eslint-config-knt5-base"]
+  "extends": "eslint-config-knt5-base"
 }
 ```
 
