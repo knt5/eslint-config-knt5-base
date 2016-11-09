@@ -16,5 +16,6 @@ module.exports = {
 		'no-plusplus': 'off',
 		'no-tabs': 'off',
 		'no-use-before-define': 'off',
+		'class-methods-use-this': 'off',
 	},
 };
