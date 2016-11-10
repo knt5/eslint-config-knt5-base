@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-knt5-base",
   "description": "A personal ESLint config based on eslint-config-airbnb-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "knt5",
   "homepage": "https://github.com/knt5/eslint-config-knt5-base",
